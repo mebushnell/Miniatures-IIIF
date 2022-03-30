@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 29,
+    "height" : 33
+  }, {
+    "width" : 58,
+    "height" : 65
+  }, {
+    "width" : 116,
+    "height" : 129
+  }, {
+    "width" : 232,
+    "height" : 257
+  }, {
+    "width" : 464,
+    "height" : 513
+  }, {
+    "width" : 927,
+    "height" : 1025
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 927,
+  "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/image3869",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1025
+}
