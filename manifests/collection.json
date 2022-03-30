@@ -1,0 +1,13 @@
+{
+  "id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mebushnell/Miniatures-IIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/testmanifest.json",
+    "label" : "Portrait Miniatures"
+  } ]
+}
