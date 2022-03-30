@@ -20,7 +20,7 @@
     "canvases" : [ {
       "@id" : "http://dea7eae8-ac67-45c2-9fb0-d06142db31d1",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Ludovick Stuart, 2nd Duke of Lennox and Duke of Richmond 1574-1624: 3869",
       "height" : 1025,
       "width" : 927,
       "images" : [ {
@@ -46,7 +46,7 @@
     }, {
       "@id" : "http://463fa723-c2b4-4b17-a53d-07e2cfe53a3d",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Henry Frederick, Prince of Wales 1594-1612: 3903",
       "height" : 1025,
       "width" : 940,
       "images" : [ {
