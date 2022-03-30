@@ -1,0 +1,86 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/testmanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Portrait Miniatures",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://65223404-cc0a-49e5-bf50-4d77c09e05d0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://dea7eae8-ac67-45c2-9fb0-d06142db31d1",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1025,
+      "width" : 927,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b927acee-4a70-4729-aa01-19d540d9241f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/image3869/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/image3869",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1025,
+          "width" : 927
+        },
+        "on" : "http://dea7eae8-ac67-45c2-9fb0-d06142db31d1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://463fa723-c2b4-4b17-a53d-07e2cfe53a3d",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1025,
+      "width" : 940,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f8552629-1785-40c1-bdcd-044f3d051f2c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/image3903/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/image3903",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1025,
+          "width" : 940
+        },
+        "on" : "http://463fa723-c2b4-4b17-a53d-07e2cfe53a3d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://dea7eae8-ac67-45c2-9fb0-d06142db31d1" ]
+  } ]
+}
