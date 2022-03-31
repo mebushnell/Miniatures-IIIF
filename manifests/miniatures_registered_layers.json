@@ -1,0 +1,103 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/miniatures_registered_layers.json",
+  "@type" : "sc:Manifest",
+  "label" : "Unknown Lady, Object 3868",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A portrait miniature of An Unknown Lady, painted by Isaac Oliver, Object 3868 in the Fitzwilliam Museum, Cambridge, UK.\n\nNatural light, raking light, infrared, and ultraviolet images included.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "attribution" : "Fitzwilliam Museum",
+  "sequences" : [ {
+    "@id" : "http://ff763143-fa96-4f79-8021-01e4222e01b8",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ffc60f6d-3e59-457d-8fa0-3f0eabce9226",
+      "@type" : "sc:Canvas",
+      "label" : "Natural light",
+      "height" : 1684,
+      "width" : 1389,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://db890d72-db73-4497-8647-f3f5b73423a0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/natural-light/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/natural-light",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1684,
+          "width" : 1389
+        },
+        "on" : "http://ffc60f6d-3e59-457d-8fa0-3f0eabce9226"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f2c1ae31-7526-4e23-986e-912d03d3072c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/raking-light/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/raking-light",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1684,
+          "width" : 1389
+        },
+        "on" : "http://98805b8c-4f65-4c3c-a68c-2caa758540ed"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1dc676fd-710c-423b-9244-fc949bbed0c6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/infrared_202203/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/infrared_202203",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1684,
+          "width" : 1389
+        },
+        "on" : "http://2056bb4b-5e60-40cf-9ba4-6d39d127c9f9"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a7a4ffbd-9a1a-4cc4-9c97-08db32ab4f99",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/ultraviolet_202203/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/ultraviolet_202203",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1684,
+          "width" : 1389
+        },
+        "on" : "http://46501fba-5dc9-429d-9cd9-d42cc8d17a62"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
