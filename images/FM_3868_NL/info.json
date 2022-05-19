@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 40,
+    "height" : 50
+  }, {
+    "width" : 80,
+    "height" : 99
+  }, {
+    "width" : 160,
+    "height" : 197
+  }, {
+    "width" : 319,
+    "height" : 393
+  }, {
+    "width" : 637,
+    "height" : 786
+  }, {
+    "width" : 1273,
+    "height" : 1571
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1273,
+  "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_NL",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1571
+}
