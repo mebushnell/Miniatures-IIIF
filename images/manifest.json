@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 1273,
+    "id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV/canvas/",
+    "label" : {
+      "none" : [ "FM_3868_UV" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 40,
+              "height" : 50
+            }, {
+              "width" : 80,
+              "height" : 99
+            }, {
+              "width" : 160,
+              "height" : 197
+            }, {
+              "width" : 319,
+              "height" : 393
+            }, {
+              "width" : 637,
+              "height" : 786
+            }, {
+              "width" : 1273,
+              "height" : 1571
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1273,
+            "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1571
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1273,
+          "id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1571
+        },
+        "target" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV/canvas/"
+      } ]
+    } ],
+    "height" : 1571
+  }, {
+    "width" : 1273,
     "id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_NIR/canvas/",
     "label" : {
       "none" : [ "FM_3868_NIR" ]
