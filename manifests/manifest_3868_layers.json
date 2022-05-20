@@ -1,0 +1,121 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/manifest_3868_layers.json",
+  "@type" : "sc:Manifest",
+  "label" : "Fitzwilliam Object 3868: Unknown Woman",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A series of technical images of object 3868 at the Fitzwilliam Museum.  This is a miniature by Isaac Oliver, dated c. 1595-1600.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://f745d4a5-8faf-4bf7-8968-7a2920b6a4a8",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://dc6acac7-2730-4d16-85ce-a4bbd9aae60c",
+      "@type" : "sc:Canvas",
+      "label" : "Natural Light",
+      "height" : 1571,
+      "width" : 1273,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://444ca228-acad-4a41-9b10-b38a39838a75",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_NL/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_NL",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1571,
+          "width" : 1273
+        },
+        "on" : "http://dc6acac7-2730-4d16-85ce-a4bbd9aae60c"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://23f8e50f-8e37-44fa-8d9a-f24e78f02bf3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_RL/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_RL",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1571,
+          "width" : 1273
+        },
+        "on" : "http://e69cb48d-3ebc-400b-9b6c-34277a263abb"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9807c762-2184-4932-aa15-07dd3b7e3e1a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_NIR/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_NIR",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1571,
+          "width" : 1273
+        },
+        "on" : "http://e772c15c-6c99-44fc-a2eb-406878cad0f6"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2449524a-c52e-4fc9-8be6-0c116d807f82",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_UV",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1571,
+          "width" : 1273
+        },
+        "on" : "http://67530f15-a7c4-4191-8e82-55fd3db428d4"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://202675dd-7a66-48bf-ab0c-b83c40f79c55",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_x-ray/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mebushnell.github.io/Miniatures-IIIF/images/FM_3868_x-ray",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1571,
+          "width" : 1273
+        },
+        "on" : "http://203c390d-bc9c-40c7-bceb-df8b6fc8e8e5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
