@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/miniatures_registered_layers.json",
     "label" : "Unknown Lady, Object 3868"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mebushnell.github.io/Miniatures-IIIF/manifests/manifest_3868_layers.json",
+    "label" : "Fitzwilliam Object 3868: Unknown Woman"
   } ]
 }
